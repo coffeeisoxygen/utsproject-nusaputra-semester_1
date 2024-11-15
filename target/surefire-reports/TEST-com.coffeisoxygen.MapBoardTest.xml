@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="com.coffeisoxygen.MapBoardTest" time="0.407" tests="5" errors="0" skipped="0" failures="0">
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="com.coffeisoxygen.MapBoardTest" time="0.041" tests="5" errors="0" skipped="0" failures="0">
   <properties>
-    <property name="jpda.address" value="58115"/>
+    <property name="jpda.address" value="60978"/>
     <property name="java.specification.version" value="23"/>
     <property name="sun.cpu.isalist" value="amd64"/>
     <property name="sun.jnu.encoding" value="Cp1252"/>
@@ -17,7 +17,7 @@
     <property name="user.country" value="US"/>
     <property name="sun.java.launcher" value="SUN_STANDARD"/>
     <property name="sun.boot.library.path" value="F:\packages\java\OpenJDK-23\bin"/>
-    <property name="sun.java.command" value="C:\Users\YOGA\AppData\Local\Temp\surefire12491600410054979749\surefirebooter2518306979555832016.jar C:\Users\YOGA\AppData\Local\Temp\surefire12491600410054979749 2024-11-15T14-54-52_233-jvmRun1 surefire8682965248485535013tmp surefire_0813208395048748956tmp"/>
+    <property name="sun.java.command" value="C:\Users\YOGA\AppData\Local\Temp\surefire11848172793230585116\surefirebooter17309365713940370245.jar C:\Users\YOGA\AppData\Local\Temp\surefire11848172793230585116 2024-11-15T15-06-05_758-jvmRun1 surefire1926148638080978458tmp surefire_05073757166599910575tmp"/>
     <property name="jdk.debug" value="release"/>
     <property name="test" value="com.coffeisoxygen.MapBoardTest"/>
     <property name="surefire.test.class.path" value="F:\utsproject_6\hikinggame\target\test-classes;F:\utsproject_6\hikinggame\target\classes;C:\Users\YOGA\.m2\repository\junit\junit\4.13.2\junit-4.13.2.jar;C:\Users\YOGA\.m2\repository\org\hamcrest\hamcrest-core\1.3\hamcrest-core-1.3.jar;C:\Users\YOGA\.m2\repository\org\mockito\mockito-core\4.0.0\mockito-core-4.0.0.jar;C:\Users\YOGA\.m2\repository\net\bytebuddy\byte-buddy\1.11.19\byte-buddy-1.11.19.jar;C:\Users\YOGA\.m2\repository\net\bytebuddy\byte-buddy-agent\1.11.19\byte-buddy-agent-1.11.19.jar;C:\Users\YOGA\.m2\repository\org\objenesis\objenesis\3.2\objenesis-3.2.jar;"/>
@@ -33,7 +33,7 @@
     <property name="line.separator" value="&#10;"/>
     <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
     <property name="java.specification.name" value="Java Platform API Specification"/>
-    <property name="surefire.real.class.path" value="C:\Users\YOGA\AppData\Local\Temp\surefire12491600410054979749\surefirebooter2518306979555832016.jar"/>
+    <property name="surefire.real.class.path" value="C:\Users\YOGA\AppData\Local\Temp\surefire11848172793230585116\surefirebooter17309365713940370245.jar"/>
     <property name="user.script" value=""/>
     <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
     <property name="java.runtime.version" value="23+37-2369"/>
@@ -62,11 +62,11 @@
     <property name="java.vm.version" value="23+37-2369"/>
     <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
     <property name="java.class.version" value="67.0"/>
-    <property name="maven.surefire.debug" value="-agentlib:jdwp=transport=dt_socket,server=n,address=58115"/>
+    <property name="maven.surefire.debug" value="-agentlib:jdwp=transport=dt_socket,server=n,address=60978"/>
   </properties>
-  <testcase name="testConstructorAndInitialState" classname="com.coffeisoxygen.MapBoardTest" time="0.354"/>
+  <testcase name="testConstructorAndInitialState" classname="com.coffeisoxygen.MapBoardTest" time="0.006"/>
   <testcase name="testGetAndSetMapCols" classname="com.coffeisoxygen.MapBoardTest" time="0"/>
   <testcase name="testGetAndSetMapRows" classname="com.coffeisoxygen.MapBoardTest" time="0"/>
-  <testcase name="testGetAndSetTile" classname="com.coffeisoxygen.MapBoardTest" time="0.017"/>
+  <testcase name="testGetAndSetTile" classname="com.coffeisoxygen.MapBoardTest" time="0"/>
   <testcase name="testGetAndSetMapTiles" classname="com.coffeisoxygen.MapBoardTest" time="0.001"/>
 </testsuite>

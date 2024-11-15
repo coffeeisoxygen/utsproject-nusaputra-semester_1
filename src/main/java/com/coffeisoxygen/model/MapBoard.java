@@ -58,4 +58,14 @@ public class MapBoard {
         mapTiles[row][col] = tile;
     }
 
+    // method untuk menampilkan papan permainan
+    public void printMap() {
+        for (int i = 0; i < mapRows; i++) {
+            for (int j = 0; j < mapCols; j++) {
+                System.out.print(mapTiles[i][j].getTileType() + " ");
+            }
+            System.out.println();
+        }
+    }
+
 }

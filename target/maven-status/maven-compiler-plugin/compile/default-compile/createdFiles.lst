@@ -1,5 +1,4 @@
 com\coffeisoxygen\model\strategies\DefaultMapStrategy.class
-com\coffeisoxygen\App.class
 com\coffeisoxygen\viewmodel\BoardViewModel.class
 com\coffeisoxygen\model\strategies\MapGenerationStrategy.class
 com\coffeisoxygen\model\tiles\FinishTile.class
