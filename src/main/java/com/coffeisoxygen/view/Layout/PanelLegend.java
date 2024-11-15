@@ -1,4 +1,4 @@
-package com.coffeisoxygen.view;
+package com.coffeisoxygen.view.Layout;
 
 /*
  * Panel that will hold the legend of the game at the bottom of the frame.

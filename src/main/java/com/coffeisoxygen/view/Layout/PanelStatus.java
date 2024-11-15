@@ -1,4 +1,4 @@
-package com.coffeisoxygen.view;
+package com.coffeisoxygen.view.Layout;
 
 import java.awt.Color;
 import java.awt.Font;
