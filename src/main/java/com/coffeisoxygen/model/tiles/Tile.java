@@ -1,4 +1,6 @@
-package com.coffeisoxygen.model;
+package com.coffeisoxygen.model.tiles;
+
+import com.coffeisoxygen.model.Player;
 
 /*
  * menggunakan Immutable Pattern

@@ -1,4 +1,4 @@
-package com.coffeisoxygen.model;
+package com.coffeisoxygen.model.tiles;
 
 public enum ETileType {
     STARTTILE,

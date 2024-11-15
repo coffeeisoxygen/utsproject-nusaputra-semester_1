@@ -1,10 +1,12 @@
-package com.coffeisoxygen.model;
+package com.coffeisoxygen.model.tiles;
+
+import com.coffeisoxygen.model.Player;
 
 /*
  * subclass dari Tile: untuk kategori tile yang aman
  */
-public class TileTypeSafe extends Tile {
-    public TileTypeSafe() {
+public class SafeTile extends Tile {
+    public SafeTile() {
         super(ETileType.SAFETILE);
     }
 

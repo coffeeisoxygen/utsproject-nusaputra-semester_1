@@ -1,10 +1,12 @@
-package com.coffeisoxygen.model;
+package com.coffeisoxygen.model.tiles;
+
+import com.coffeisoxygen.model.Player;
 
 /*
  * subclass dari Tile: untuk kategori tile yang berbahaya
  */
-public class TileTypeDanger extends Tile {
-    public TileTypeDanger() {
+public class DangerTile extends Tile {
+    public DangerTile() {
         super(ETileType.DANGERTILE);
     }
 

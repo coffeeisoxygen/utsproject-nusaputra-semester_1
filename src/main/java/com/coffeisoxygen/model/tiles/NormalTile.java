@@ -1,10 +1,12 @@
-package com.coffeisoxygen.model;
+package com.coffeisoxygen.model.tiles;
+
+import com.coffeisoxygen.model.Player;
 
 /*
  * subclass dari Tile: untuk kategori tile yang normal
  */
-public class TileTypeNormal extends Tile {
-    public TileTypeNormal() {
+public class NormalTile extends Tile {
+    public NormalTile() {
         super(ETileType.NORMALTILE);
     }
 

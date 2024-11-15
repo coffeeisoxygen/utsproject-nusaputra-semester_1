@@ -1,10 +1,12 @@
-package com.coffeisoxygen.model;
+package com.coffeisoxygen.model.tiles;
+
+import com.coffeisoxygen.model.Player;
 
 /*
  * subclass dari Tile: untuk kategori tile yang merupakan start
  */
-public class TileTypeStart extends Tile {
-    public TileTypeStart() {
+public class StartTile extends Tile {
+    public StartTile() {
         super(ETileType.STARTTILE);
     }
 

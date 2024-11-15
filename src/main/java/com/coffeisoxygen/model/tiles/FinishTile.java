@@ -1,10 +1,12 @@
-package com.coffeisoxygen.model;
+package com.coffeisoxygen.model.tiles;
+
+import com.coffeisoxygen.model.Player;
 
 /*
  * subclass dari Tile: untuk kategori tile yang merupakan finish
  */
-public class TileTypeFinish extends Tile {
-    public TileTypeFinish() {
+public class FinishTile extends Tile {
+    public FinishTile() {
         super(ETileType.FINISHTILE);
     }
 
